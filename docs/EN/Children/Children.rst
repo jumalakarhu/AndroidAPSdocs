@@ -17,7 +17,8 @@ Functions
 Tools and apps for remote monitoring
 --------------------------------------------------
 * `Nightscout <http://www.nightscout.info/>`_ in web browser (mainly data display)
-*	NSClient app
+*	NSClient app downloaded from assets in `Android APS releases <https://github.com/MilosKozak/AndroidAPS/releases>`_ or built from source files. 
+* NSClient wear app built from source files.
 *	Dexcom follow if you are using original Dexcom app (BG values only)
 *	`xDrip+ <../Configuration/xdrip.html>`_ in follower mode (mainly BG values and **alarms**)
 *	`Spike <https://spike-app.com/>`_ on iPhone (mainly BG values and **alarms**)
@@ -26,6 +27,7 @@ Things to consider
 ==================================================
 * Setting the correct `treatment factors <../Getting-Started/FAQ.html#how-to-begin>`_ (basal rate, DIA, ISF...) is difficult for kids, especially when growth hormones are involved. 
 * Settings must be the same in AndroidAPS and NSClient.
+* NSClient and NSClient2 apps can both be installed on one phone to monitor data from two different Nightscout sites.
 * Consider time gap between master and follower due to time for up- and download as well as the fact that AAPS master phone will only upload after loop run.
 * So take your time to set those correctly and test them in real life with your kid next to you before starting remote monitoring and remote treatment. School holidays might be a good time for that.
 * What is your emergency plan when remote control does not work (i.e. network problems)?
